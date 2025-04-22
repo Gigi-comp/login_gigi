@@ -1,0 +1,124 @@
+body {
+    font-family: "Varela Round", sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixar o fundo */
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+
+.login {
+    border-radius: 20px;
+    border: none;
+    margin: 90px;
+    background-color: rgb(59, 54, 65);
+    display: flex;
+    padding: 10px 30px 70px 30px;
+    height: 400px;
+    position: relative;
+    z-index: 1; /* Coloca o conteúdo por cima */
+}
+.astronaut{
+   border-radius: 10px;
+   margin-top: 42px;
+   
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px 50px 100px;
+    
+}
+label{
+    display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgb(200, 200, 200); /* opcional: deixar o texto visível no fundo escuro */
+  margin-top: 10px;
+  margin-bottom: 17px;
+
+}
+
+.form{
+   
+    gap: 30px; /* espaço entre os inputs */
+    width: 300px; 
+    padding: 30px;
+    
+}
+
+.form input{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 31px;
+    width: 280px;
+    background-color: rgb(219, 223, 231);
+    font-family: "Varela Round", sans-serif;
+    outline: none;
+
+}
+.form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    outline: none;
+    border: none;
+    accent-color: #b08eff;
+
+}
+
+.title h1{
+    color:rgb(224, 224, 224);
+    font-size: 40px;
+}
+.title p{
+    color: rgb(147, 149, 160);
+}
+.title p a{
+    text-decoration: none;
+    color: rgb(228, 223, 243);
+    display: inline-block;
+    transition: transform 0.3s ease;
+    padding-left: 7px;
+    font-weight: 550;
+}
+.title p a:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+
+}
+button {
+    border: none;
+    border-radius: 10px;
+    font-family: "Varela Round", sans-serif;
+    padding: 7px;
+    width: 150px;
+    color: rgb(54, 54, 54);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+button:hover{
+    transform: scale(1.02);
+    background-color:rgb(73, 68, 146);
+    color: beige;
+}
+
+
+
+
+footer {
+    background-color: rgba(87, 87, 88, 0.021);
+}
+  .footer_copy {
+    text-align: center;
+    color: white;
+  }
